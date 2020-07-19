@@ -6,10 +6,9 @@
 	<parent>
 		<groupId>com.liuli.maven</groupId>
 		<artifactId>maven-demo</artifactId>
-		<version>1.0</version>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>maven-scope</artifactId>
-
 
 	<dependencies>
 		<dependency>
