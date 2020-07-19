@@ -10,6 +10,7 @@
 	</parent>
 	<artifactId>maven-scope</artifactId>
 
+
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
