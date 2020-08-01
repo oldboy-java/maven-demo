@@ -17,6 +17,7 @@
 
 	<modules>
 		<module>maven-scope</module>
+		<module>maven-web</module>
 	</modules>
 
 	<!-- 定义依赖范围，可被子类继承，子类中可以通过dependency引入依赖，不需要指定版本号和依赖范围scope -->

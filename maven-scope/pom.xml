@@ -24,6 +24,16 @@
 
 
 	<build>
+	
+		<!-- 配置资源文件启用过滤功能 -->
+		<resources>
+			<resource>
+				<directory>${project.basedir}/src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		
+		
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
