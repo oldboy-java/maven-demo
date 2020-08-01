@@ -9,7 +9,7 @@
 		<version>1.5.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	
+
 	<groupId>com.imooc</groupId>
 	<artifactId>maven-spring-boot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -22,4 +22,18 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
+
+	<build>
+
+		<!-- 定义spring-boot插件，打包生成主清单文件 -->
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<mainClass>com.liuli.maven.boot.App</mainClass>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
